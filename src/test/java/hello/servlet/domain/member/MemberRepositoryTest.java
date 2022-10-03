@@ -17,7 +17,7 @@ class MemberRepositoryTest {
 
     @Test
     void save() {
-//given
+        //given
         Member member = new Member("hello", 20);
         //when
         Member savedMember = memberRepository.save(member);
